@@ -4,6 +4,6 @@ var person = {
     age: 21,
 };
 function fullname(name, lastName) {
-    return name + lastName;
+    return name + " " + lastName;
 }
 console.log(fullname(person.name, person.lastName));

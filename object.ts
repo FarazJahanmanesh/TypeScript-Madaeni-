@@ -5,7 +5,7 @@ var person = {
 }
 
 function fullname(name:string,lastName:string):string{
-    return name + lastName;
+    return name + " " + lastName;
 }
 
 console.log(fullname(person.name,person.lastName));
