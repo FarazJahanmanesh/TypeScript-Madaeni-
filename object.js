@@ -3,7 +3,7 @@ var person = {
     lastName: "jahanmanesh",
     age: 21,
 };
-function fullname(name, lastName) {
+function Fullname(name, lastName) {
     return name + " " + lastName;
 }
-console.log(fullname(person.name, person.lastName));
+console.log(Fullname(person.name, person.lastName));
